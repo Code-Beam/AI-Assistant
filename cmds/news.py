@@ -6,7 +6,7 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 # Your API key goes here
-API_KEY = '357c05960668410b961ad624be136ef2'
+API_KEY = 'xxx'
 
 # Today's date in ISO format
 today = datetime.date.today().isoformat()
