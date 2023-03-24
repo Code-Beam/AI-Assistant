@@ -6,7 +6,7 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
-openai.api_key = "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" # replace with your API key
+openai.api_key = "xxx" # replace with your API key
 
 def get_answer(question):
     # set up the OpenAI API request
