@@ -16,7 +16,7 @@ def weather(city):
     CITY = city
 
     # Your API key
-    API_KEY = "ab3a13c5b56d9d9af5935191138376c4"
+    API_KEY = "xxx"
 
     # updating the URL
     URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY + "&units=metric"
